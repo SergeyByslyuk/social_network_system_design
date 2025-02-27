@@ -40,15 +40,16 @@
    
   ### Пост
     - id (8 байт)
+    - title (100 байт)
     - created_at (8 байт)
     - text (100 байт)
-    - user_id (8 байт)
+    - user_gid (100 байт)
     - photo(jpg) (5 мб)
 
   ### Коммент
     - id (8 байт)
     - text (100 байт)
-    - user_id (8 байт)
+    - user_gid (100 байт)
     - created_at (8 байт)
 
 ## Трафик
